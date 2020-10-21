@@ -1,0 +1,112 @@
+/*generic classes*/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Style the header */
+
+.header {
+    background-image: url('../img/banner-2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10% 20px;
+    text-align: center;
+    height: 100vh;
+}
+
+.header h1 {
+    font-weight: bold;
+    font-size: 85px;
+}
+
+
+/*Style the two-column*/
+
+.two-column {
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+
+.two-column h1 {
+    font-size: 85px;
+}
+
+.two-column p {
+    font-size: 50px;
+}
+
+
+/*styles one-column*/
+
+.one-column {
+    padding: 20px;
+    float: left;
+    width: 100%;
+}
+
+.one-column h1 {
+    font-size: 90px;
+    text-align: center;
+    padding: 20px 10%;
+}
+
+#greenfondo {
+    background-color: #28ECA5;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*Styles on four-column*/
+
+.four-column {
+    padding: 20px;
+    float: left;
+    width: 25%;
+}
+
+.four-column h1 {
+    font-size: 20px;
+    padding: 20px 30%;
+}
+
+#primera {
+    padding: 20px 5% 20px 15%;
+}
+
+#segunda {
+    padding: 20px 5% 20px 8%;
+}
+
+#tercera {
+    padding: 20px 2% 20px 1%;
+}
+
+#cuarta {
+    padding: 20px 20% 20px 0%;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width:700px) {
+    /* Responsive layout */
+}
+
+
+}
