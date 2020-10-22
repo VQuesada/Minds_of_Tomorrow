@@ -16,7 +16,7 @@ body {
     background-image: url('../img/banner-2.jpg');
     background-size: cover;
     background-attachment: fixed;
-    padding: 10% 20px;
+    padding: 10% 2%;
     text-align: center;
     height: 100vh;
 }
@@ -24,6 +24,20 @@ body {
 .header h1 {
     font-weight: bold;
     font-size: 85px;
+}
+
+
+/*styles one-column*/
+
+.one-column {
+    padding: 20px 13%;
+    float: left;
+    width: 100%;
+}
+
+.one-column h1 {
+    font-size: 12vh;
+    text-align: center;
 }
 
 
@@ -35,31 +49,70 @@ body {
     width: 50%;
 }
 
-.two-column h1 {
-    font-size: 85px;
-}
-
-.two-column p {
-    font-size: 50px;
-}
-
-
-/*styles one-column*/
-
-.one-column {
-    padding: 20px;
-    float: left;
+.two-column img {
     width: 100%;
 }
 
-.one-column h1 {
-    font-size: 90px;
+
+/*
+.two-column img {
+    height: 680px;
+}
+*/
+
+.two-column h1 {
+    font-size: 6vw;
+}
+
+.two-column p {
+    font-size: 3vw;
+}
+
+
+/*Styles four-column*/
+
+.four-column {
+    padding: 20px;
+    float: left;
+    width: 25%;
     text-align: center;
-    padding: 20px 10%;
+}
+
+.four-column img {
+    width: 100%;
+}
+
+.withoutpadding {
+    padding: 0px;
+}
+
+.four-column h2 {
+    font-size: 3vh;
 }
 
 #greenfondo {
     background-color: #28ECA5;
+}
+
+#bluefondo {
+    background-color: #46A6FC;
+}
+
+
+/*Estilos ID's footer*/
+
+#blackfondo {
+    background-color: black;
+    color: white;
+}
+
+#blackfondo h1,
+#blackfondo h2 {
+    font-size: 20px;
+}
+
+#blackfondo h1 {
+    padding: 3%;
 }
 
 
@@ -72,41 +125,33 @@ body {
 }
 
 
-/*Styles on four-column*/
-
-.four-column {
-    padding: 20px;
-    float: left;
-    width: 25%;
-}
-
-.four-column h1 {
-    font-size: 20px;
-    padding: 20px 30%;
-}
-
-#primera {
-    padding: 20px 5% 20px 15%;
-}
-
-#segunda {
-    padding: 20px 5% 20px 8%;
-}
-
-#tercera {
-    padding: 20px 2% 20px 1%;
-}
-
-#cuarta {
-    padding: 20px 20% 20px 0%;
-}
-
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+/* Responsive layout*/
 
 @media screen and (max-width:700px) {
     /* Responsive layout */
-}
-
-
+    .two-column,
+    .three-column {
+        width: 100%;
+    }
+    .two-column p {
+        font-size: 4vh;
+    }
+    .four-column {
+        width: 50%;
+    }
+    .four-column h2 {
+        font-size: 4vh;
+    }
+    .header {
+        background-image: url('../img/banner-2.jpg');
+    }
+    .header h1 {
+        font-size: 9vh;
+    }
+    .row h1 {
+        font-size: 9vh;
+    }
+    .row p {
+        font-size: 7vh;
+    }
 }
