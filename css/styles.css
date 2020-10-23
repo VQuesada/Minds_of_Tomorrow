@@ -15,7 +15,7 @@ body {
 .header {
     background-image: url('../img/banner-2.jpg');
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     padding: 10% 2%;
     text-align: center;
     height: 100vh;
@@ -23,14 +23,15 @@ body {
 
 .header h1 {
     font-weight: bold;
-    font-size: 85px;
+    font-weight: 900;
+    font-size: 6vw;
 }
 
 
 /*styles one-column*/
 
 .one-column {
-    padding: 20px 13%;
+    padding: 3% 13%;
     float: left;
     width: 100%;
 }
@@ -52,13 +53,6 @@ body {
 .two-column img {
     width: 100%;
 }
-
-
-/*
-.two-column img {
-    height: 680px;
-}
-*/
 
 .two-column h1 {
     font-size: 6vw;
@@ -133,6 +127,15 @@ body {
     .three-column {
         width: 100%;
     }
+    .one-column {
+        padding: 15% 10%;
+    }
+    .one-column h1 {
+        font-size: 6.5vw;
+    }
+    .two-column h1 {
+        font-size: 8vw;
+    }
     .two-column p {
         font-size: 4vh;
     }
@@ -143,15 +146,13 @@ body {
         font-size: 4vh;
     }
     .header {
-        background-image: url('../img/banner-2.jpg');
+        background-image: url('../img/banner-3.jpg');
+        background-size: cover;
     }
     .header h1 {
-        font-size: 9vh;
+        font-size: 14vh;
     }
-    .row h1 {
-        font-size: 9vh;
-    }
-    .row p {
-        font-size: 7vh;
+    #blackfondo {
+        padding: 4% 3%;
     }
 }
