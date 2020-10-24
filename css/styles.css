@@ -22,8 +22,8 @@ body {
 }
 
 .header h1 {
-    font-weight: bold;
-    font-weight: 900;
+    /* font-weight: bold;
+    font-weight: 900;*/
     font-size: 6vw;
 }
 
@@ -76,12 +76,13 @@ body {
     width: 100%;
 }
 
-.withoutpadding {
-    padding: 0px;
-}
-
 .four-column h2 {
     font-size: 3vh;
+}
+
+.withoutpadding {
+    padding: 0px;
+    margin-bottom: -5px;
 }
 
 #greenfondo {
